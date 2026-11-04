@@ -4,7 +4,8 @@ A step-by-step Jupyter notebook that forecasts weekly orders (`Orders Weekly`) f
 **Discount 1 – Product 3** (Skyr Flavoured). It uses only the methods from Lectures 10-12 and starts
 simple, adding one idea at a time. Every model is scored on the same 13 holdout weeks.
 
-This is a proposal for the study group to discuss and build on, not a finished answer.
+This is a proposal for the study group to discuss and build on, not a finished answer. The code was
+written with help from Claude Code, so check the reasoning before you reuse it.
 
 ## Results (13-week holdout, W22-W34 2026)
 
@@ -21,9 +22,16 @@ last week (W34 2026), which looks incomplete in almost all series.
 
 ## How to run it
 
-1. Clone the repository.
+1. Clone the repository:
+
+   ```bash
+   git clone https://github.com/andr322a/arla-forecasting-challenge.git
+   cd arla-forecasting-challenge
+   ```
+
 2. **Put the data file `Forecasting_challenge_data.xlsx` from the course in the same folder as the
-   notebook.** The data is not in the repository (see below).
+   notebook.** The data is not in the repository (see below). The assignment PDF calls the file
+   `Forecast_OSCA.xlsx`; if your copy has that name, rename it.
 3. Install the packages (Python 3.11 or newer):
 
    ```bash
@@ -72,4 +80,4 @@ learning model. Choose any change with the rolling-origin check (Part 7), not wi
 
 The data is real, anonymised order data that Arla shared for the course, and the assignment text
 belongs to the lecturers. Neither is in this repository, and `.gitignore` keeps `*.xlsx`, `*.pdf` and
-`results/` out of git. Please keep it that way, and keep the repository private.
+`results/` out of git. Please keep it that way, and don't add the data file in a fork or a pull request.
