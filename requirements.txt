@@ -1,0 +1,9 @@
+# The versions the notebook was run with. The numbers in the notebook text come from these versions;
+# other versions of statsmodels can give slightly different estimates. Needs Python 3.11 or newer.
+pandas==3.0.5
+numpy==2.5.3
+statsmodels==0.15.0
+scipy==1.18.1
+matplotlib==3.11.2
+openpyxl==3.1.5
+jupyter==1.1.1

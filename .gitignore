@@ -1,0 +1,19 @@
+# Course material: Arla's data and the assignment text are not ours to share.
+# Every group member puts the data file from the course next to the notebook.
+*.xlsx
+*.pdf
+
+# Files the notebook writes when it runs
+results/
+
+# Kept locally only (an older, more extensive version with other choices)
+solution.py
+
+# Python, Jupyter, editors, OS
+__pycache__/
+.ipynb_checkpoints/
+.venv/
+venv/
+.idea/
+.vscode/
+.DS_Store
