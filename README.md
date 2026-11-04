@@ -57,6 +57,8 @@ writes a few figures and a table to `results/` (not tracked by git).
 ## Choices worth discussing in the group
 
 - **Holdout of 13 weeks** (one quarter), fixed before any model was fitted.
+- **Every choice is made on the training weeks** (ACF/PACF, AIC, p-values, residual checks, rolling origin).
+  The holdout is only used for the final score, as the brief asks.
 - **Promotions** are used only as a yes/no indicator, never the size of the uplift (as the brief asks).
 - **Exception weeks** are kept, not deleted, and not used as input (they are not known in advance).
 - **Manual Cleaned History** is not used: it mostly replaces the promotion peaks with a baseline.
